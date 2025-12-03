@@ -1,13 +1,13 @@
 # remove_unuse_image
 
-このリポジトリには、Markdown ファイルの `.assets` フォルダ内で使用されていない画像ファイルを削除するスクリプト `rui.py` が含まれます。
+このリポジトリには、Markdown ファイルの `.assets` フォルダ内で使用されていない画像ファイルを削除するスクリプト `rmassets.py` が含まれます。
 
 使い方:
 
 ```
-python rui.py test.md        # 対話式で未使用ファイルを削除
-python rui.py test.md --dry-run
-python rui.py . --yes        # カレントディレクトリ内の .md を全て処理、確認なしで削除
+python rmassets.py test.md        # 対話式で未使用ファイルを削除
+python rmassets.py test.md --dry-run
+python rmassets.py . --yes        # カレントディレクトリ内の .md を全て処理、確認なしで削除
 ```
 
 挙動:
